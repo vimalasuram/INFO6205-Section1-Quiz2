@@ -16,8 +16,24 @@ def binary_search_rotated(arr, target, rotation_index):
     :return: bool - True if the target is in the array, False otherwise.
     """
     
-    # TODO: Implement binary search on the rotated array
+    # TODO: Check if the rotation_index is 0, meaning the array is not rotated.
     
-    # Hint: While the entire array is not sorted, can it be viewed as 2 arrays which are sorted by themselves?
+    # TODO: Determine which half (before or after rotation_index) the target belongs to.
+    
+    def binary_search(arr, left, right, target):
+        """
+        Performs a binary search on a sorted array within the specified range.
+        
+        :param arr: List[int] - The sorted array to search in.
+        :param left: int - The left boundary of the search range (inclusive).
+        :param right: int - The right boundary of the search range (inclusive).
+        :param target: int - The value to search for.
+        :return: bool - True if the target is in the array, False otherwise.
+        """
+        # TODO: Implement standard binary search logic.
+        
+        return False
+    
+    # TODO: Perform binary search on the appropriate half using the nested function.
     
     return False  # TODO: Replace this with actual return value
